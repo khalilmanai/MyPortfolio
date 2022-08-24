@@ -114,7 +114,7 @@ const Navbar = () => {
 
         </ul>
       </div>
-      %
+
 
 
 
