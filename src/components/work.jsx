@@ -13,7 +13,7 @@ const Work = () => {
                 {/* Container */}
 
                 <div
-                    className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
+                    className='grid sm: px-40 sm:grid-cols-2 md:grid-cols-3 gap-4'>
                     {/* Grid Item */}
                     <div style={{ backgroundImage: `url(${workImg})` }}
                         className='shadow-lg shadow-[#040C16] group container rounded-md flex justify-center items-center mx-auto content-div '>
