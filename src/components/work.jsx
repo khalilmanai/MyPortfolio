@@ -5,7 +5,7 @@ import realEstate from '../assets/realestate.jpg'
 const Work = () => {
     return (
         <div name='work' className='w-full md:h-screen text-gray-300 bg-[#0a192f]'>
-            <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
+            <div className='max-w-[1000px] sm:mx-auto px-20 flex flex-col justify-center w-full h-full'>
                 <div className='pb-3'>
                     <p className='text-4xl font-bold inline border-b-4 border-[#FFB012] '>Work</p>
                     <p className='py-2 '> Check out some of recent work</p>
@@ -13,7 +13,7 @@ const Work = () => {
                 {/* Container */}
 
                 <div
-                    className='grid sm: px-40 sm:grid-cols-2 md:grid-cols-3 gap-4'>
+                    className='grid sm: px-10 sm:grid-cols-2 md:grid-cols-3 gap-4'>
                     {/* Grid Item */}
                     <div style={{ backgroundImage: `url(${workImg})` }}
                         className='shadow-lg shadow-[#040C16] group container rounded-md flex justify-center items-center mx-auto content-div '>
