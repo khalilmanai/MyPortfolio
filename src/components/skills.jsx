@@ -12,11 +12,10 @@ import Dart from '../assets/dart.png'
 import Flutter from '../assets/flutter.png'
 const Skills = () => {
   return (
-    <div name='skills' className=' bg-[#0a192f] text-gray-300  sm:pt-[300px] lg:pt-[100px]'  >
+    <div name='skills' className=' bg-[#0a192f] text-gray-300'  >
       {/* Container */}
-             
-      <div className='max-w-[1000px]  sm: px-40 mx-auto p-4  flex flex-col justify-center w-full h-full'>
-      
+
+      <div className='max-w-[1000px]  sm: px-40 mx-auto p-4 flex flex-col justify-center w-full h-full'>
         <p className='text-4xl font-bold inline border-b-4 w-[90px] border-[#FFB012]' >Skills</p>
         <p className='py-4' >These are the technologies i've worked with </p>
       </div>
@@ -72,8 +71,7 @@ const Skills = () => {
 
         </div>
       </div>
-      </div>
-  
+    </div>
   )
 }
 
