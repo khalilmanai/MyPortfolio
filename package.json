@@ -2,7 +2,7 @@
   "name": "protfolio-react-app",
   "version": "0.1.2",
   "private": true,
-  "homepage": "https://khalilmanai.github.io/MyPortfolio",
+  "homepage": "https://khalilmanai.me",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.3.0",
