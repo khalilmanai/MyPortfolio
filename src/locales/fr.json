@@ -1,0 +1,77 @@
+{
+  "Home": "Accueil",
+  "About": "À propos",
+  "Skills": "Compétences",
+  "Work": "Projets",
+  "Contact": "Contact",
+  "themes": {
+    "Theme": "Théme",
+    "light": "clair",
+    "dark": "sombre",
+    "cupcake": "cupcake",
+    "bumblebee": "bourdon",
+    "emerald": "émeraude",
+    "corporate": "corporate",
+    "synthwave": "synthwave",
+    "retro": "rétro",
+    "cyberpunk": "cyberpunk",
+    "valentine": "Saint-Valentin",
+    "halloween": "Halloween",
+    "garden": "jardin",
+    "forest": "forêt",
+    "aqua": "aqua",
+    "lofi": "lofi",
+    "pastel": "pastel",
+    "fantasy": "fantaisie",
+    "wireframe": "maquette filaire",
+    "black": "noir",
+    "luxury": "luxueux",
+    "dracula": "dracula",
+    "cmyk": "CMJN",
+    "autumn": "automne",
+    "business": "affaires",
+    "acid": "acide",
+    "lemonade": "limonade",
+    "night": "nuit",
+    "coffee": "café",
+    "winter": "hiver"
+  },
+  "home": {
+    "greeting": "Salut, je m'appelle",
+    "name": "Khalil Manai",
+    "profession": "Je suis développeur frontend.",
+    "description": "Très motivé pour améliorer constamment mes compétences et évoluer professionnellement dans la pile technologique. Expérimenté en conception d'interface utilisateur et développement mobile, intéressé par les systèmes et applications décentralisés, cherchant à améliorer mes connaissances et compétences en plongeant en profondeur dans le monde de la blockchain et des différentes technologies.",
+    "viewWork": "Voir projets"
+  },
+
+  "about": {
+    "greeting": "Je m'appelle Khalil, enchanté de vous rencontrer. N'hésitez pas à explorer mon portfolio."
+  }, 
+  "skills": {
+    "title": "Compétences",
+    "technologies": "Voici les technologies avec lesquelles j'ai travaillé"
+  },
+  
+    "work" : {
+      "title" : "Projets",
+      "description" : "Voici quelques-uns de mes projets"
+    }
+    ,
+    "contact": {
+      "Contact": "Contact",
+      "SubmitForm": "Soumettez le formulaire ci-dessous ou contactez-moi à l'adresse suivante :",
+      "Name": "Nom",
+      "Email": "Email",
+      "Message": "Message",
+      "SendRequest": "Envoyer une demande de collaboration"
+    },
+    "lang": {
+      "Language": "Langue",
+      "French": "Français",
+      "English": "Anglais"
+    },
+  
+    "visitRepo" :"Visiter repo"
+
+
+}

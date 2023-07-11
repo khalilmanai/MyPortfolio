@@ -1,0 +1,78 @@
+{
+  "Home": "Home",
+  "About": "About",
+  "Skills": "Skills",
+  "Work": "Work",
+  "Contact": "Contact",
+  "themes": {
+    "Theme": "Theme",
+    "light": "light",
+    "dark": "dark",
+    "cupcake": "cupcake",
+    "bumblebee": "bumblebee",
+    "emerald": "emerald",
+    "corporate": "corporate",
+    "synthwave": "synthwave",
+    "retro": "retro",
+    "cyberpunk": "cyberpunk",
+    "valentine": "valentine",
+    "halloween": "halloween",
+    "garden": "garden",
+    "forest": "forest",
+    "aqua": "aqua",
+    "lofi": "lofi",
+    "pastel": "pastel",
+    "fantasy": "fantasy",
+    "wireframe": "wireframe",
+    "black": "black",
+    "luxury": "luxury",
+    "dracula": "dracula",
+    "cmyk": "cmyk",
+    "autumn": "autumn",
+    "business": "business",
+    "acid": "acid",
+    "lemonade": "lemonade",
+    "night": "night",
+    "coffee": "coffee",
+    "winter": "winter"
+  },
+
+  "home": {
+    "greeting": "Hi, my name is",
+    "name": "Khalil Manai",
+    "profession": "I'm a Frontend Developer.",
+    "description": "Highly self-motivated to consistently improve skills and grow professionally in the tech stack. Experienced in UI/UX and Mobile Development, interested in Decentralized systems and apps, seeking to improve my knowledge and skills with an in-depth dive into the world of blockchain and various technologies.",
+    "viewWork": "View Work"
+  },
+
+  "about": {
+    "greeting": "I'm Khalil, nice to meet you. Please have a look around"
+  },
+  "skills": {
+    "title": "Skills",
+    "technologies": "These are the technologies I've worked with"
+  }, 
+  "work" : {
+    "title" : "Work",
+    "description" : "This is some of my  projects"
+  },
+  
+    "contact": {
+      "Contact": "Contact",
+      "SubmitForm": "Submit the form below or get in touch with me at:",
+      "Name": "Name",
+      "Email": "Email",
+      "Message": "Message",
+      "SendRequest": "Send Collaboration Request"
+      
+    },
+    "lang": {
+      "Language": "Language",
+      "French": "French",
+      "English": "English"
+    },
+    "visistRepo" :"Visit repo"
+   
+  
+  
+}
