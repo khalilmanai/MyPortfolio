@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.66b4df0c.css",
-    "main.js": "/static/js/main.cd3d3e1c.js",
+    "main.js": "/static/js/main.5bd05b51.js",
     "static/media/realestate.jpg": "/static/media/realestate.44fd19f4c6872731149c.jpg",
     "static/media/Servimi.png": "/static/media/Servimi.dc540f1911d8fba285e0.png",
     "static/media/khalil_manai.jpg": "/static/media/khalil_manai.c52039d808783642863b.jpg",
@@ -20,10 +20,10 @@
     "static/media/javascript.png": "/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/index.html",
     "main.66b4df0c.css.map": "/static/css/main.66b4df0c.css.map",
-    "main.cd3d3e1c.js.map": "/static/js/main.cd3d3e1c.js.map"
+    "main.5bd05b51.js.map": "/static/js/main.5bd05b51.js.map"
   },
   "entrypoints": [
     "static/css/main.66b4df0c.css",
-    "static/js/main.cd3d3e1c.js"
+    "static/js/main.5bd05b51.js"
   ]
 }
