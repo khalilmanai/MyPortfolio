@@ -20,7 +20,7 @@ export default function Switcher() {
     localStorage.setItem("theme", theme);
     const localTheme = localStorage.getItem("theme");
     // Add custom data-theme attribute to html tag required to update theme using DaisyUI
-    document.querySelector("html").setAttribute("data-theme", localTheme);
+    document.querySelector("body").setAttribute("data-theme", localTheme);
   }, [theme]);
 
   const toggleDropdown = () => {
@@ -31,8 +31,7 @@ export default function Switcher() {
     <select
       className="select select-ghost w-full max-w-[150px]"
       onChange={(e) => handleThemeChange(e.target.value)}
-      value={theme}
-    >
+      value={theme}>
       <option disabled value="">
         {t("themes.Theme")}
       </option>
