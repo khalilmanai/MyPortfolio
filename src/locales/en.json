@@ -1,0 +1,74 @@
+{
+  "Home": "Home",
+  "About": "About",
+  "Skills": "Skills",
+  "Work": "Work",
+  "Contact": "Contact",
+  "themes": {
+    "Theme": "Theme",
+    "light": "light",
+    "dark": "dark",
+    "cupcake": "cupcake",
+    "bumblebee": "bumblebee",
+    "emerald": "emerald",
+    "corporate": "corporate",
+    "synthwave": "synthwave",
+    "retro": "retro",
+    "cyberpunk": "cyberpunk",
+    "valentine": "valentine",
+    "halloween": "halloween",
+    "garden": "garden",
+    "forest": "forest",
+    "aqua": "aqua",
+    "lofi": "lofi",
+    "pastel": "pastel",
+    "fantasy": "fantasy",
+    "wireframe": "wireframe",
+    "black": "black",
+    "luxury": "luxury",
+    "dracula": "dracula",
+    "cmyk": "cmyk",
+    "autumn": "autumn",
+    "business": "business",
+    "acid": "acid",
+    "lemonade": "lemonade",
+    "night": "night",
+    "coffee": "coffee",
+    "winter": "winter"
+  },
+
+  "home": {
+    "greeting": "Hi, my name is",
+    "name": "Khalil Manai",
+    "profession": "I'm a Full Stack Developer",
+    "description": "Scroll down to learn more about my background and expertise.",
+    "viewWork": "View Work"
+  },
+
+  "about": {
+    "greeting": "Highly driven software engineer with a strong background in full-stack development, mobile app creation, and UI/UX design. Experienced in React Native, JavaScript frameworks, and backend technologies. Passionate about innovative solutions, including decentralized systems and applications. Continuously seeking to deepen my expertise in emerging technologies, with a focus on blockchain and scalable, secure software architectures."
+  },
+  "skills": {
+    "title": "Skills",
+    "technologies": "These are the technologies I've worked with"
+  },
+  "work": {
+    "title": "Work",
+    "description": "This is some of my  projects"
+  },
+
+  "contact": {
+    "Contact": "Contact",
+    "SubmitForm": "Submit the form below or get in touch with me at:",
+    "Name": "Name",
+    "Email": "Email",
+    "Message": "Message",
+    "SendRequest": "Send Collaboration Request"
+  },
+  "lang": {
+    "Language": "Language",
+    "French": "French",
+    "English": "English"
+  },
+  "visistRepo": "Visit repo"
+}

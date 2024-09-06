@@ -1,0 +1,74 @@
+{
+  "Home": "Accueil",
+  "About": "À propos",
+  "Skills": "Compétences",
+  "Work": "Projets",
+  "Contact": "Contact",
+  "themes": {
+    "Theme": "Théme",
+    "light": "clair",
+    "dark": "sombre",
+    "cupcake": "cupcake",
+    "bumblebee": "bourdon",
+    "emerald": "émeraude",
+    "corporate": "corporate",
+    "synthwave": "synthwave",
+    "retro": "rétro",
+    "cyberpunk": "cyberpunk",
+    "valentine": "Saint-Valentin",
+    "halloween": "Halloween",
+    "garden": "jardin",
+    "forest": "forêt",
+    "aqua": "aqua",
+    "lofi": "lofi",
+    "pastel": "pastel",
+    "fantasy": "fantaisie",
+    "wireframe": "maquette filaire",
+    "black": "noir",
+    "luxury": "luxueux",
+    "dracula": "dracula",
+    "cmyk": "CMJN",
+    "autumn": "automne",
+    "business": "affaires",
+    "acid": "acide",
+    "lemonade": "limonade",
+    "night": "nuit",
+    "coffee": "café",
+    "winter": "hiver"
+  },
+  "home": {
+    "greeting": "Salut, je m'appelle",
+    "name": "Khalil Manai",
+    "profession": "Je suis un développeur Full Stack",
+    "description": "Faites défiler vers le bas pour en savoir plus sur mon parcours et mes compétences.",
+    "viewWork": "Voir projets"
+  },
+
+  "about": {
+    "greeting": "Ingénieur logiciel motivé, avec une solide expérience en développement full-stack, création d’applications mobiles et conception UI/UX. Expérimenté en React Native, frameworks JavaScript et technologies backend. Passionné par les solutions innovantes, y compris les systèmes et applications décentralisés. Toujours en quête d'approfondir mes compétences dans les technologies émergentes, avec un intérêt particulier pour la blockchain et les architectures logicielles évolutives et sécurisées."
+  },
+  "skills": {
+    "title": "Compétences",
+    "technologies": "Voici les technologies avec lesquelles j'ai travaillé"
+  },
+
+  "work": {
+    "title": "Projets",
+    "description": "Voici quelques-uns de mes projets"
+  },
+  "contact": {
+    "Contact": "Contact",
+    "SubmitForm": "Soumettez le formulaire ci-dessous ou contactez-moi à l'adresse suivante :",
+    "Name": "Nom",
+    "Email": "Email",
+    "Message": "Message",
+    "SendRequest": "Envoyer une demande de collaboration"
+  },
+  "lang": {
+    "Language": "Langue",
+    "French": "Français",
+    "English": "Anglais"
+  },
+
+  "visitRepo": "Visiter repo"
+}
