@@ -32,6 +32,7 @@ export default function WorkCard() {
                   <a
                     href={project.link}
                     target="_blank"
+                    rel="noreferrer noopener"
                     className="btn btn-primary mt-4">
                     {t("View Repository")}
                   </a>

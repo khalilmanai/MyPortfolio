@@ -6,35 +6,35 @@
   "Contact": "Contact",
   "themes": {
     "Theme": "Theme",
-    "light": "light",
-    "dark": "dark",
-    "cupcake": "cupcake",
-    "bumblebee": "bumblebee",
-    "emerald": "emerald",
-    "corporate": "corporate",
-    "synthwave": "synthwave",
-    "retro": "retro",
-    "cyberpunk": "cyberpunk",
-    "valentine": "valentine",
-    "halloween": "halloween",
-    "garden": "garden",
-    "forest": "forest",
-    "aqua": "aqua",
-    "lofi": "lofi",
-    "pastel": "pastel",
-    "fantasy": "fantasy",
-    "wireframe": "wireframe",
-    "black": "black",
-    "luxury": "luxury",
-    "dracula": "dracula",
-    "cmyk": "cmyk",
-    "autumn": "autumn",
-    "business": "business",
-    "acid": "acid",
-    "lemonade": "lemonade",
-    "night": "night",
-    "coffee": "coffee",
-    "winter": "winter"
+    "light": "Light",
+    "dark": "Dark",
+    "cupcake": "Cupcake",
+    "bumblebee": "Bumblebee",
+    "emerald": "Emerald",
+    "corporate": "Corporate",
+    "synthwave": "Synthwave",
+    "retro": "Retro",
+    "cyberpunk": "Cyberpunk",
+    "valentine": "Valentine",
+    "halloween": "Halloween",
+    "garden": "Garden",
+    "forest": "Forest",
+    "aqua": "Aqua",
+    "lofi": "Lo-Fi",
+    "pastel": "Pastel",
+    "fantasy": "Fantasy",
+    "wireframe": "Wireframe",
+    "black": "Black",
+    "luxury": "Luxury",
+    "dracula": "Dracula",
+    "cmyk": "CMYK",
+    "autumn": "Autumn",
+    "business": "Business",
+    "acid": "Acid",
+    "lemonade": "Lemonade",
+    "night": "Night",
+    "coffee": "Coffee",
+    "winter": "Winter"
   },
 
   "home": {
@@ -46,15 +46,20 @@
   },
 
   "about": {
-    "greeting": "Highly driven software engineer with a strong background in full-stack development, mobile app creation, and UI/UX design. Experienced in React Native, JavaScript frameworks, and backend technologies. Passionate about innovative solutions, including decentralized systems and applications. Continuously seeking to deepen my expertise in emerging technologies, with a focus on blockchain and scalable, secure software architectures."
+    "greeting": "I'm a highly driven software engineer with a strong background in full-stack development, mobile app creation, and UI/UX design. I'm experienced in React Native, JavaScript frameworks, and backend technologies. I'm passionate about creating innovative solutions, including decentralized systems and applications. I'm always seeking to deepen my expertise in emerging technologies, with a focus on blockchain and scalable, secure software architectures."
   },
+
   "skills": {
     "title": "Skills",
-    "technologies": "These are the technologies I've worked with"
+    "technologies": "These are the technologies I've worked with:",
+    "frameworks": "Frameworks",
+    "languages": "Programming languages",
+    "tools": "Tools"
   },
+
   "work": {
     "title": "Work",
-    "description": "This is some of my  projects"
+    "description": "Here are some of my projects:"
   },
 
   "contact": {
@@ -65,10 +70,26 @@
     "Message": "Message",
     "SendRequest": "Send Collaboration Request"
   },
+
   "lang": {
     "Language": "Language",
     "French": "French",
     "English": "English"
   },
-  "visistRepo": "Visit repo"
+
+  "visistRepo": "Visit Repo",
+  "education": {
+    "title": "Education",
+    "description": "Here is a list of my educational experiences:",
+    "esprit": {
+      "title": "Software Engineering Degree",
+      "desc": "Currently studying in a computer engineering program, specializing in mobile application development. My journey has allowed me to work on complex projects, optimize applications, and solve technical problems in various development environments.",
+      "link": "Visit ESPRIT"
+    },
+    "esen": {
+      "title": "Bachelor's Degree in Applied Computer Science for Management",
+      "desc": "In 2023, I obtained a bachelor's degree in applied computer science for management, specializing in information systems, which provided me with a solid foundation in computer science, programming, database management, and computer networks.",
+      "link": "Visit ESEN"
+    }
+  }
 }

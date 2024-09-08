@@ -5,7 +5,7 @@
   "Work": "Projets",
   "Contact": "Contact",
   "themes": {
-    "Theme": "Théme",
+    "Theme": "Thème",
     "light": "clair",
     "dark": "sombre",
     "cupcake": "cupcake",
@@ -20,7 +20,7 @@
     "garden": "jardin",
     "forest": "forêt",
     "aqua": "aqua",
-    "lofi": "lofi",
+    "lofi": "lo-fi",
     "pastel": "pastel",
     "fantasy": "fantaisie",
     "wireframe": "maquette filaire",
@@ -39,22 +39,23 @@
   "home": {
     "greeting": "Salut, je m'appelle",
     "name": "Khalil Manai",
-    "profession": "Je suis un développeur Full Stack",
+    "profession": "Je suis développeur Full Stack",
     "description": "Faites défiler vers le bas pour en savoir plus sur mon parcours et mes compétences.",
     "viewWork": "Voir projets"
   },
-
   "about": {
-    "greeting": "Ingénieur logiciel motivé, avec une solide expérience en développement full-stack, création d’applications mobiles et conception UI/UX. Expérimenté en React Native, frameworks JavaScript et technologies backend. Passionné par les solutions innovantes, y compris les systèmes et applications décentralisés. Toujours en quête d'approfondir mes compétences dans les technologies émergentes, avec un intérêt particulier pour la blockchain et les architectures logicielles évolutives et sécurisées."
+    "greeting": "Ingénieur logiciel motivé avec une solide expérience en développement full-stack, création d’applications mobiles et conception UI/UX. Expérimenté en React Native, frameworks JavaScript et technologies backend. Passionné par les solutions innovantes, y compris les systèmes et applications décentralisés. Toujours en quête d'approfondir mes compétences dans les technologies émergentes, notamment la blockchain et les architectures logicielles évolutives et sécurisées."
   },
   "skills": {
     "title": "Compétences",
-    "technologies": "Voici les technologies avec lesquelles j'ai travaillé"
+    "technologies": "Voici les technologies avec lesquelles j'ai travaillé :",
+    "frameworks": "Environnements développement",
+    "languages": "Languages de programmation",
+    "tools": "outils de développement"
   },
-
   "work": {
     "title": "Projets",
-    "description": "Voici quelques-uns de mes projets"
+    "description": "Voici quelques-uns de mes projets :"
   },
   "contact": {
     "Contact": "Contact",
@@ -69,6 +70,19 @@
     "French": "Français",
     "English": "Anglais"
   },
-
-  "visitRepo": "Visiter repo"
+  "education": {
+    "title": "Éducation",
+    "description": "Voici une liste de mes expériences éducatives :",
+    "esprit": {
+      "title": "Diplôme d'ingénieur en informatique",
+      "desc": "Actuellement étudiant en cycle d'ingénieur en informatique, spécialisé dans le développement d'applications mobiles. Mon parcours m'a permis de développer des projets complexes, d'optimiser des applications et de résoudre des problèmes techniques dans divers environnements de développement.",
+      "link": "Visitez ESPRIT"
+    },
+    "esen": {
+      "title": "Diplôme de licence en informatique appliquée à la gestion",
+      "desc": "En 2023, j'ai obtenu une licence en informatique appliquée à la gestion, spécialisée dans les systèmes d'information, ce qui m'a permis d'acquérir des bases solides en informatique, programmation, gestion des bases de données et réseaux informatiques.",
+      "link": "Visitez ESEN"
+    }
+  },
+  "visitRepo": "Visiter le repo"
 }

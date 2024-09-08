@@ -1,8 +1,8 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import { useTranslation } from 'react-i18next';
 
 export default function LangSwitcher() {
-  const [isOpen, setIsOpen] = useState(false);
+
   const { t, i18n } = useTranslation();
   const languages = {
     'English': 'en',
@@ -10,9 +10,7 @@ export default function LangSwitcher() {
 
   };
 
-  const toggleDropdown = () => {
-    setIsOpen(!isOpen);
-  };
+
 
   const handleLanguageChange = (language) => {
     i18n.changeLanguage(language);

@@ -9,7 +9,7 @@ import { useTranslation } from 'react-i18next';
 import LangSwitcher from "./LangSwitcher";
 
 const Navbar = () => {
-  const { t } = useTranslation(); 
+  const { t } = useTranslation();
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
 
@@ -20,12 +20,11 @@ const Navbar = () => {
       </Link>
     </li>
   );
-  
 
   return (
     <div className="w-full h-[80px] flex justify-between items-center px-4">
       <div>
-        <Link to="home" smooth={true} duration={menuLink.duration}>
+        <Link to="home" smooth={true} duration={Navbar.menuLink.duration}>
           <img
             className="w-20 h-20 cursor-pointer"
             src={Logo}
@@ -56,7 +55,6 @@ const Navbar = () => {
       {nav && (
         <div className="backdrop-blur-3xl fixed top-0 left-0 w-full h-screen flex flex-col justify-center items-center">
           <ul>
-     
             {menuLink("home", "Home")}
             {menuLink("about", "About")}
             {menuLink("skills", "Skills")}
@@ -79,35 +77,43 @@ const Navbar = () => {
             <a
               className="flex justify-between items-center w-full"
               target="_blank"
+              rel="noopener noreferrer"
+              referrerPolicy="no-referrer"
               href="https://www.linkedin.com/in/manai-khalil/"
             >
               Linkedin <FaLinkedin size={30} />
             </a>
           </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[10px] duration-300 ">
+          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[10px] duration-300">
             <a
-              className="flex justify-between items-center w-full "
+              className="flex justify-between items-center w-full"
               target="_blank"
+              rel="noopener noreferrer"
+              referrerPolicy="no-referrer"
               href="https://github.com/khalilmanai"
             >
               Github <FaGithub size={30} />
             </a>
           </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[10px] duration-300 ">
+          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[10px] duration-300">
             <a
-              className="flex justify-between items-center w-full "
+              className="flex justify-between items-center w-full"
               target="_blank"
+              rel="noopener noreferrer"
+              referrerPolicy="no-referrer"
               href="mailto:medkhalilmannai@gmail.com"
             >
               Email <HiOutlineMail size={30} />
             </a>
           </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[10px] duration-300 ">
+          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[10px] duration-300">
             <a
-              className="flex justify-between items-center w-full "
+              className="flex justify-between items-center w-full"
               target="_blank"
-href="https://drive.google.com/file/d/1BkSmNfRu1J0oUhQV_c4mixK7S4YEaA8w/view?usp=sharing"
->
+              rel="noopener noreferrer"
+              referrerPolicy="no-referrer"
+              href="https://drive.google.com/drive/folders/1ZYqnuPIC9UMKr-mML4YpXZ-d9oN4K0YF?usp=sharing"
+            >
               Resume <BsFillPersonLinesFill size={30} />
             </a>
           </li>
