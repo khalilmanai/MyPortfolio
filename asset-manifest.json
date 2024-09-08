@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9d715162.css",
+    "main.js": "/static/js/main.76b933a1.js",
+    "static/media/java.png": "/static/media/java.32872008478ce941ef0e.png",
+    "static/media/react-native.png": "/static/media/react-native.73a9097c36eb99907ee6.png",
+    "static/media/postman.png": "/static/media/postman.7fedeaff79947348538e.png",
+    "static/media/khalil_manai.png": "/static/media/khalil_manai.8a0c411aa801a2ef00c0.png",
+    "static/media/Servimi.png": "/static/media/Servimi.dc540f1911d8fba285e0.png",
+    "static/media/intellij.png": "/static/media/intellij.cbdc9eeeb4ff19b0bdb9.png",
+    "static/media/symfony.png": "/static/media/symfony.a35d69abc5acd9697aea.png",
+    "static/media/spring.png": "/static/media/spring.c579a0bc024aa879c771.png",
+    "static/media/MentalHealth.png": "/static/media/MentalHealth.e09a9fb5e336c1d419de.png",
+    "static/media/vscode.png": "/static/media/vscode.9bc6e588b5f2b867a8a4.png",
+    "static/media/php.png": "/static/media/php.d7c9415b8f28d13a3d79.png",
+    "static/media/esen.png": "/static/media/esen.412eecfff28e6dc89fb5.png",
+    "static/media/ImageGenerator.png": "/static/media/ImageGenerator.f1ac190f7de5350b5aad.png",
+    "static/media/swagger.png": "/static/media/swagger.56eddda23b29ec8094e2.png",
+    "static/media/expo.png": "/static/media/expo.31ac4c4f185287f1a619.png",
+    "static/media/next.png": "/static/media/next.ab8293c95faf26dc5e3e.png",
+    "static/media/react.png": "/static/media/react.0cf951a69d8e58f83f9d.png",
+    "static/media/sql.png": "/static/media/sql.5d49229070799a508017.png",
+    "static/media/mongo.png": "/static/media/mongo.2a1528ddc31d4ce8518d.png",
+    "static/media/phpmyadmin.png": "/static/media/phpmyadmin.20f4c6f6f2b1e98277a8.png",
+    "static/media/github.png": "/static/media/github.3b9e32903aa89111875d.png",
+    "static/media/html.png": "/static/media/html.2ba4fabc69a89a8f71e6.png",
+    "static/media/tailwind.png": "/static/media/tailwind.e47ac876b8d4d0bba47a.png",
+    "static/media/logo.png": "/static/media/logo.b1fce60cf0aa09268baa.png",
+    "static/media/css.png": "/static/media/css.69a82c2d9e45c933a9cb.png",
+    "static/media/express.png": "/static/media/express.39a0f4c3d981885c64f8.png",
+    "static/media/esprit.png": "/static/media/esprit.3c59680f9b74dd4ed757.png",
+    "static/media/redux.png": "/static/media/redux.b3b939c66aecf7d53967.png",
+    "static/media/flutter.png": "/static/media/flutter.544bc95df5fb53b3d5da.png",
+    "static/media/javascript.png": "/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
+    "index.html": "/index.html",
+    "main.9d715162.css.map": "/static/css/main.9d715162.css.map",
+    "main.76b933a1.js.map": "/static/js/main.76b933a1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9d715162.css",
+    "static/js/main.76b933a1.js"
+  ]
+}
