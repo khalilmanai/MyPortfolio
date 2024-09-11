@@ -18,7 +18,7 @@ export default function Education() {
                     </div>
                 </div>
                 <p className="py-4 text-center">{t("education.description")}</p>
-                <div className='flex flex-row gap-10 '>
+                <div className='flex flex-col sm:flex-row gap-10 '>
                     <EducationCard
                         img={esprit}
                         title={t("education.esprit.title")}

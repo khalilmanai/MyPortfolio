@@ -1,57 +1,98 @@
-import React from "react";
+import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
+import { motion } from "framer-motion";
 import { projects } from "../utils/projects";
 
 export default function WorkCard() {
   const { t } = useTranslation();
+  const [currentIndex, setCurrentIndex] = useState(0);
 
-  const handleDigitClick = (event, index) => {
-    event.preventDefault();
-    const target = document.getElementById(`item${index + 1}`);
-    target.scrollIntoView({ behavior: "smooth", block: "center" });
+  const handleNext = () => {
+    setCurrentIndex((prevIndex) => (prevIndex + 1) % projects.length);
+  };
+
+  const handlePrev = () => {
+    setCurrentIndex((prevIndex) =>
+      prevIndex === 0 ? projects.length - 1 : prevIndex - 1
+    );
   };
 
   return (
-    <div className="flex flex-col justify-center items-center">
-      <div className="carousel w-full overflow-hidden">
+    <div className="flex flex-col justify-center items-center relative w-full py-10">
+      <motion.div
+        className="carousel w-full max-w-4xl overflow-hidden relative"
+        initial={{ opacity: 0, y: 50 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.6, ease: "easeOut" }}
+      >
         {projects.map((project, index) => (
-          <div
+          <motion.div
+            key={index}
             id={`item${index + 1}`}
-            className="carousel-item w-full rounded-xl transform transition-transform duration-500 relative"
-            key={index}>
+            className={`carousel-item w-full rounded-3xl shadow-lg relative ${currentIndex === index ? "block" : "hidden"
+              }`}
+            initial={{ opacity: 0, x: 100 }}
+            animate={{
+              opacity: currentIndex === index ? 1 : 0,
+              x: currentIndex === index ? 0 : 100,
+            }}
+            transition={{ duration: 0.5 }}
+          >
             <div className="relative">
-              <img
+              <motion.img
                 src={project.image}
-                className="w-full rounded-xl"
+                className="w-full rounded-3xl object-cover h-72 lg:h-96"
                 alt={`Project ${index + 1}`}
+                initial={{ scale: 0.9, opacity: 0 }}
+                animate={{ scale: 1, opacity: 1 }}
+                transition={{ duration: 0.5 }}
               />
-              <div className="rounded-xl absolute glass inset-0 flex justify-center items-center opacity-0 bg-opacity-20 transition-opacity duration-300 hover:opacity-100">
-                <div className="text-center">
-                  <h3 className="text-lg font-bold">{project.title}</h3>
-                  <p>{project.description}</p>
-                  <a
+              <motion.div
+                className="rounded-3xl absolute inset-0 flex justify-center items-center bg-gradient-to-b from-transparent to-gray-900 opacity-0 hover:opacity-90 transition-opacity duration-500"
+                whileHover={{ opacity: 0.9 }}
+                transition={{ duration: 0.5 }}
+              >
+                <div className="text-center text-white p-4 lg:p-8">
+                  <h3 className="text-xl lg:text-3xl font-bold mb-2">
+                    {project.title}
+                  </h3>
+                  <p className="text-sm lg:text-base mb-4">
+                    {project.description}
+                  </p>
+                  <motion.a
                     href={project.link}
                     target="_blank"
                     rel="noreferrer noopener"
-                    className="btn btn-primary mt-4">
+                    className=" px-4 py-2 rounded-full text-white font-semibold "
+                    whileHover={{ scale: 1.1 }}
+                    transition={{ type: "spring", stiffness: 300 }}
+                  >
                     {t("View Repository")}
-                  </a>
+                  </motion.a>
                 </div>
-              </div>
+              </motion.div>
             </div>
-          </div>
+          </motion.div>
         ))}
-      </div>
-      <div className="flex justify-center w-full py-2 gap-2">
-        {projects.map((_, index) => (
-          <button
-            onClick={(e) => handleDigitClick(e, index)}
-            className="btn btn-xs"
-            key={index}>
-            {index + 1}
-          </button>
-        ))}
-      </div>
+      </motion.div>
+
+      {/* Left and Right Controls */}
+      <button
+        className="absolute left-4 top-1/2 transform -translate-y-1/2 bg-white bg-opacity-30 text-gray-800 hover:bg-opacity-50 p-3 rounded-full shadow-md transition-all duration-300"
+        onClick={handlePrev}
+      >
+        <motion.div whileHover={{ scale: 1.2 }}>
+          &#8592;
+        </motion.div>
+      </button>
+      <button
+        className="absolute right-4 top-1/2 transform -translate-y-1/2 bg-white bg-opacity-30 text-gray-800 hover:bg-opacity-50 p-3 rounded-full shadow-md transition-all duration-300"
+        onClick={handleNext}
+      >
+        <motion.div whileHover={{ scale: 1.2 }}>
+          &#8594;
+        </motion.div>
+      </button>
     </div>
   );
 }
