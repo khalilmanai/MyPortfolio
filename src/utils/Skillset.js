@@ -45,7 +45,7 @@ export const frameworks = [
   { id: 5, name: "Symfony", href: "https://symfony.com/", imageSrc: symfony },
   {
     id: 6,
-    name: "Spring Boot",
+    name: "Spring",
     href: "https://spring.io/projects/spring-boot",
     imageSrc: spring,
   },
