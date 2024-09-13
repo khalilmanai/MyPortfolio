@@ -59,7 +59,7 @@
   },
   "contact": {
     "Contact": "Contact",
-    "SubmitForm": "Soumettez le formulaire ci-dessous ou contactez-moi à l'adresse suivante :",
+    "SubmitForm": "Soumettez le formulaire ci-dessous ou contactez-moi à l'adresse suivante ",
     "Name": "Nom",
     "Email": "Email",
     "Message": "Message",
@@ -84,5 +84,9 @@
       "link": "Visitez ESEN"
     }
   },
-  "visitRepo": "Visiter le repo"
+  "visitRepo": "Visiter le repo",
+
+  "footer": {
+    "text": "Ce site web est développé par Manai mohamed khalil"
+  }
 }

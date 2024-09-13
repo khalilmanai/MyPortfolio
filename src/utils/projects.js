@@ -20,5 +20,11 @@ export const projects = [
     link: "https://github.com/khalilmanai/MentalHealth.git",
     image: require("../assets/MentalHealth.png"),
   },
-
+  {
+    title: "EcoPlast",
+    description:
+      "A project related to creating an application dedicated for recyling items and improving the process of collecting recyclables from the source (citzens) via this application",
+    link: "https://github.com/khalilmanai/EcoPlast_app.git",
+    image: require("../assets/Ecoplast.png"),
+  },
 ];

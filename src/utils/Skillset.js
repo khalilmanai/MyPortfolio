@@ -80,7 +80,7 @@ export const languages = [
 export const tools = [
   {
     id: 1,
-    name: "Tailwind",
+    name: "TailwindCss",
     href: "https://tailwindcss.com/",
     imageSrc: Tailwind,
   },
@@ -92,7 +92,12 @@ export const tools = [
     href: "https://www.postman.com/",
     imageSrc: Postman,
   },
-  { id: 5, name: "Swagger", href: "https://swagger.io/", imageSrc: Swagger },
+  {
+    id: 5,
+    name: "Swagger API",
+    href: "https://swagger.io/",
+    imageSrc: Swagger,
+  },
   {
     id: 6,
     name: "phpMyAdmin",
