@@ -1,4 +1,3 @@
-import Navbar from "./components/navbar";
 import Home from "./components/home";
 import About from "./components/about";
 import Skills from "./components/skills";
@@ -7,6 +6,7 @@ import Contact from "./components/contact";
 import Education from "./components/Education";
 import Footer from "./components/Footer";
 import { Analytics } from "@vercel/analytics/react";
+import Navbar from "./components/NavBar";
 
 function App() {
   return (

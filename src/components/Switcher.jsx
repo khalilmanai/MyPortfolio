@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import themes from "../utils/themes";
 import { useTranslation } from "react-i18next";
 
-export default function Switcher() {
+export default function ThemeSwitcher() {
     const [theme, setTheme] = useState(() => {
         const savedTheme = localStorage.getItem("theme");
         return savedTheme ? savedTheme : "light";
